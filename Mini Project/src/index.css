@@ -1,0 +1,61 @@
+body{
+  background-color: white;
+  color: black;
+}
+
+.parent-cards-container{
+  display: flex;
+  gap: 10px;
+}
+.container{
+  display: flex;
+}
+
+.card{
+  background-color: rgb(247, 204, 204);
+  border: 1px solid yellow;
+  width: 50vh;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.card img{
+  width: 50x;
+  height: 50px;
+  object-fit: cover;
+}
+
+button{
+  background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top button{
+  display: flex;
+  align-items: center;
+}
+
+.center div{
+  display: flex;
+  gap:10px;
+  border-radius: 10px;
+}
+.center div h4{
+  border: 1px solid white;
+  background-color: aqua;
+  padding: 5px;
+  border: none;
+}
+.bottom>div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
