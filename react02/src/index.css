@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.card-cont{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+}
+.card{
+    width: 40px; 
+    color: rgb(31, 4, 4);
+    background-color: rgb(211, 211, 171);
+    width:50vw;
+}
+
+.container{
+    width: 40px; 
+    color: rgb(31, 4, 4);
+    background-color: rgb(248, 248, 38);
+    width:50vw;
+}
+
+.prof{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.parent-container{
+    width: 30vw;
+    border: 2px solid red;
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+}
+
+.parent-container img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
