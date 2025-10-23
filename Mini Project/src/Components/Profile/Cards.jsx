@@ -1,5 +1,7 @@
 import { Bookmark } from 'lucide-react';
-const Cards = () => {
+const Cards = (props) => {
+  console.log(props.userCompany);
+  
   return (
 
     <div className="container">
@@ -12,8 +14,8 @@ const Cards = () => {
       </div>
 
       <div className="center">
-        <h3>Google <span>5 days ago</span></h3>
-      <h1>Senior UI/UX Designer</h1>
+        <h3> {props.userCompany} <span>5 days ago</span></h3>
+      <h1>{props.userTitle}</h1>
       
 
       <div>
@@ -24,7 +26,7 @@ const Cards = () => {
       <div className="bottom">
         <div>
           <div>
-            <h3>$120/hr</h3>
+            <h3>{props.userPay}</h3>
             <p>Sukkur, Pakistan</p>
           </div>
           <button>Apply</button>
